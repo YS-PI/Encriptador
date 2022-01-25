@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de letras</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div>
+      <img class="images" src="./images/logo.png" alt="logo" />
+    </div>
+    <div class="container">
+      <div class="containerText">
+        <div>
+          <input
+            class="ingreseTexto"
+            type="text"
+            id="input-texto"
+            placeholder="Ingrese texto aquí"
+          />
+        </div>
+        <div class="containerBtn">
+          <input
+            class="btn"
+            type="button"
+            value="Encriptar"
+            id="btn-encriptar"
+          />
+          <input
+            class="btn2"
+            type="button"
+            value="Desencriptar"
+            id="btn-desencriptar"
+          />
+        </div>
+      </div>
+
+      <div class="mostrarTexto">
+        <input class="muestreTexto" type="text" id="text-input-salida" />
+        <input class="btn2" type="button" value="Copiar" id="btn-copy" />
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
